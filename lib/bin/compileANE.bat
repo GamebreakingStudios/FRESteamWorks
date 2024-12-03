@@ -1,4 +1,4 @@
-@echo off
+
 if not exist ..\..\config.bat (
     echo FRESteamWorks/config.bat is not set up!
     goto :eof
@@ -27,9 +27,11 @@ call "%AIR_SDK%\bin\adt" -package -target ane FRESteamWorks.ane descriptor.xml ^
                          -swc FRESteamWorksLib.swc ^
                          -platform Windows-x86 library.swf FRESteamWorks.dll ^
                          -platform Windows-x86-64 library.swf FRESteamWorks-64.dll ^
-                         -platform MacOS-x86-64 library.swf FRESteamWorks.framework ^
-                         -platform Linux-x86-64 library.swf FRESteamWorks.so ^
                          -platform default library.swf
+
+REM Removed these lines earlier in the above command to disable linux and mac building
+REM                      -platform MacOS-x86-64 library.swf FRESteamWorks.framework ^
+REM                      -platform Linux-x86-64 library.swf FRESteamWorks.so ^
 
 del library.swf
 del catalog.xml
