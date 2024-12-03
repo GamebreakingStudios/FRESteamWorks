@@ -9,4 +9,4 @@ set "FLEX_SDK=C:\SDKS\AIRSDK"
 REM Path to the Steam SDK, so that %STEAM_SDK%\redistributable_bin exists.
 set "STEAM_SDK=C:\SDKS\SteamSDK"
 REM Path to the unzip binary. Only needed when building the ANE.
-set "UNZIP_BIN=%ProgramFiles(x86)%\GnuWin32\bin\unzip"
+set "UNZIP_BIN=%ProgramFiles%\Git\usr\bin\unzip"
