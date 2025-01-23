@@ -167,25 +167,25 @@ X(AIRSteam_SetEnv) /* = 130 */
 /********************/
 /* Input */
 /********************/
-X(AIRSteam_InputInit)                       /* = 124 */
-X(AIRSteam_GetControllerForGamepadIndex)    /* = 125 */
-X(AIRSteam_ShowBindingPanel)                /* = 126 */
-X(AIRSteam_GetActionSetHandle)              /* = 127 */
-X(AIRSteam_GetDigitalActionHandle)          /* = 128 */
-X(AIRSteam_GetAnalogActionHandle)           /* = 129 */
-X(AIRSteam_GetDigitalActionData)            /* = 130 */
-X(AIRSteam_GetAnalogActionData)             /* = 131 */
-X(AIRSteam_RunFrame)                        /* = 132 */
-X(AIRSteam_GetConnectedControllers)         /* = 133 */
-X(AIRSteam_ActivateActionSet)               /* = 134 */
-X(AIRSteam_GetHandleAllControllers)         /* = 135 */
-X(AIRSteam_GetDigitalActionOrigins)         /* = 136 */
-X(AIRSteam_GetAnalogActionOrigins)          /* = 137 */
-X(AIRSteam_GetGlyphSVGForActionOrigin)      /* = 138 */
-X(AIRSteam_GetGlyphPNGForActionOrigin)      /* = 139 */
-X(AIRSteam_GetStringForActionOrigin)        /* = 140 */
-X(AIRSteam_ShowGamepadTextInput)            /* = 141 */
-X(AIRSteam_ShowFloatingGamepadTextInput)    /* = 142 */
-X(AIRSteam_SteamInputShutDown)              /* = 143 */
-X(AIRSteam_DismissFloatingGamepadTextInput) /* = 144 */
+X(AIRSteam_InputInit)                       /* = 131 */
+X(AIRSteam_GetControllerForGamepadIndex)    /* = 132 */
+X(AIRSteam_ShowBindingPanel)                /* = 133 */
+X(AIRSteam_GetActionSetHandle)              /* = 134 */
+X(AIRSteam_GetDigitalActionHandle)          /* = 135 */
+X(AIRSteam_GetAnalogActionHandle)           /* = 136 */
+X(AIRSteam_GetDigitalActionData)            /* = 137 */
+X(AIRSteam_GetAnalogActionData)             /* = 138 */
+X(AIRSteam_RunFrame)                        /* = 139 */
+X(AIRSteam_GetConnectedControllers)         /* = 140 */
+X(AIRSteam_ActivateActionSet)               /* = 141 */
+X(AIRSteam_GetHandleAllControllers)         /* = 142 */
+X(AIRSteam_GetDigitalActionOrigins)         /* = 143 */
+X(AIRSteam_GetAnalogActionOrigins)          /* = 144 */
+X(AIRSteam_GetGlyphSVGForActionOrigin)      /* = 145 */
+X(AIRSteam_GetGlyphPNGForActionOrigin)      /* = 146 */
+X(AIRSteam_GetStringForActionOrigin)        /* = 147 */
+X(AIRSteam_ShowGamepadTextInput)            /* = 148 */
+X(AIRSteam_ShowFloatingGamepadTextInput)    /* = 149 */
+X(AIRSteam_SteamInputShutDown)              /* = 150 */
+X(AIRSteam_DismissFloatingGamepadTextInput) /* = 151 */
 /* END GENERATED CODE */
