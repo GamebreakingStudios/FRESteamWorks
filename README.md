@@ -4,14 +4,14 @@ FRESteamWorks allows you to implement SteamWorks API features including achievem
 storage, workshop support and much more in your games built with Adobe AIR on Windows,
 Mac and Linux.
 
-# RossD20Studios :: Steam Input API and Native Linux Support #
+# Project Forks and versions #
 
 A brief history of this project's development:
 1. [Ventero](https://github.com/Ventero) initially started this project as a fork of [FRESteamWorks by Oldes/Amanita Design](https://github.com/Oldes/FRESteamWorks/) 
 2. [waveofthought](https://github.com/waveofthought-code) forked Ventero's branch [FRESteamWorks by Ventero](https://github.com/Ventero/FRESteamWorks) to create his branch that added 64Bit + expanded API
-3. [RossD20Studios](https://github.com/RossD20Studios) forked waveofthought's branch [FRESteamWorks waveofthought](https://github.com/waveofthought-code/FRESteamWorks) to create this branch that adds support for Steam Input API, Native Linux, and newer AIR v50.2.3 thanks to support from Andrew Frost, Jon Dix and Brad Jackson.
+3. [RossD20Studios](https://github.com/RossD20Studios) forked waveofthought's branch [FRESteamWorks waveofthought](https://github.com/waveofthought-code/FRESteamWorks) to create a branch that adds support for Steam Input API, Native Linux, and newer AIR v50.2.3 thanks to support from Andrew Frost, Jon Dix and Brad Jackson.
+4  [Gamebreaking Studios](https://github.com/GamebreakingStudios) forked RossD20Studios's branch [FRESteamWorks RossD20Studios](https://github.com/RossD20Studios/FRESteamWorks) to create a branch that supports a newer Steam API, merging back in some newer changes from waveofthought, and supports older AIR versions too.
 
-For an example of this ANE in action with a Steam Deck Verified and Native Linux support, you can [download the free demo of my turn-based tactical card game, Abalon, on Steam](https://store.steampowered.com/app/1681840/Abalon/?utm_source=FRESteamWorks).
 
 # Download #
 
@@ -20,7 +20,7 @@ A working ANE with Steam Input support for Windows/macOS/Linux can be [downloade
 # API Documentation #
 
 For a full list of all supported functions,
-see [FRESteamWorks.as](https://github.com/RossD20Studios/FRESteamWorks/blob/master/lib/src/com/amanitadesign/steam/FRESteamWorks.as).
+see [FRESteamWorks.as](https://github.com/GamebreakingStudios/FRESteamWorks/blob/master/lib/src/com/amanitadesign/steam/FRESteamWorks.as).
 In general, the FRESteamWorks API functions try to be a close representation of
 the native Steamworks SDK functions.
 
@@ -32,8 +32,8 @@ Steam Input API Documentation can be [read here](https://partner.steamgames.com/
 # Usage #
 
 ### Using the ANE Requires: ### 
-1. AIR Version 50.2.3
-2. SteamWorks SDK v1.54 (At this time, newer versions of the SDK are not supported due to added parameters in the authentication methods starting in v1.56)
+1. AIR SDK
+2. SteamWorks SDK v1.59 (At this time, newer versions of the SDK are not supported since "CSteamAPIContext has been removed")
 3. Windows 32-bit/x64, MacOS x64/ARM (M1/M2) or Linux x64
 
 Include the ANE in your project like
@@ -53,8 +53,8 @@ For testing the application, I recommend building the AIR application, opening t
 Building the ANE from the source files is only necessary if you need to modify source code and/or the ANE package is no longer available for [downloaded here](https://d20studios.com/FRESteamWorks/).
 
 ### Building the ANE Requires: ###
-1. AIR Version 50.2.3
-2. SteamWorks SDK v1.54 (At this time, newer versions of the SDK are not supported due to added parameters in the authentication methods starting in v1.56)
+1. AIR SDK
+2. SteamWorks SDK v1.59 (At this time, newer versions of the SDK are not supported since "CSteamAPIContext has been removed")
 3. Mac OS Catalina+ (To ensure support for latest Xcode)
 4. Apple Developer Account (To create the Developer ID Application certificate necessary to sign the ANE to work on Mac)
 5. Xcode v14+  (To build the Mac version and ensure support for Apple Silicon M1/M2)
