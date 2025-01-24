@@ -10,7 +10,7 @@ A brief history of this project's development:
 1. [Ventero](https://github.com/Ventero) initially started this project as a fork of [FRESteamWorks by Oldes/Amanita Design](https://github.com/Oldes/FRESteamWorks/) 
 2. [waveofthought](https://github.com/waveofthought-code) forked Ventero's branch [FRESteamWorks by Ventero](https://github.com/Ventero/FRESteamWorks) to create his branch that added 64Bit + expanded API
 3. [RossD20Studios](https://github.com/RossD20Studios) forked waveofthought's branch [FRESteamWorks waveofthought](https://github.com/waveofthought-code/FRESteamWorks) to create a branch that adds support for Steam Input API, Native Linux, and newer AIR v50.2.3 thanks to support from Andrew Frost, Jon Dix and Brad Jackson.
-4  [Gamebreaking Studios](https://github.com/GamebreakingStudios) forked RossD20Studios's branch [FRESteamWorks RossD20Studios](https://github.com/RossD20Studios/FRESteamWorks) to create a branch that supports a newer Steam API, merging back in some newer changes from waveofthought, and supports older AIR versions too.
+4.  [Gamebreaking Studios](https://github.com/GamebreakingStudios) forked RossD20Studios's branch [FRESteamWorks RossD20Studios](https://github.com/RossD20Studios/FRESteamWorks) to create a branch that supports a newer Steam API, merging back in some newer changes from waveofthought, and supports older AIR versions too.
 
 
 # Download #
