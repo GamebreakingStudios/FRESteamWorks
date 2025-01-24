@@ -174,60 +174,63 @@ package com.amanitadesign.steam {
 		private static const AIRSteam_UserHasLicenseForApp:int = 110;
 		private static const AIRSteam_RequestEncryptedAppTicket:int = 111;
 		private static const AIRSteam_GetEncryptedAppTicket:int = 112;
+		private static const AIRSteam_GetAuthTicketForWebApi:int = 113;
+		private static const AIRSteam_GetAuthTicketForWebApiResultHandle:int = 114;
+		private static const AIRSteam_GetAuthTicketForWebApiResultHexString:int = 115;
 		/***********/
 		/* Overlay */
 		/***********/
-		private static const AIRSteam_ActivateGameOverlay:int = 113;
-		private static const AIRSteam_ActivateGameOverlayToUser:int = 114;
-		private static const AIRSteam_ActivateGameOverlayToWebPage:int = 115;
-		private static const AIRSteam_ActivateGameOverlayToStore:int = 116;
-		private static const AIRSteam_ActivateGameOverlayInviteDialog:int = 117;
-		private static const AIRSteam_IsOverlayEnabled:int = 118;
-		private static const AIRSteam_SetOverlayNotificationPosition:int = 119;
-		private static const AIRSteam_SetOverlayNotificationInset:int = 120;
-		private static const AIRSteam_OverlayNeedsPresent:int = 121;
+		private static const AIRSteam_ActivateGameOverlay:int = 116;
+		private static const AIRSteam_ActivateGameOverlayToUser:int = 117;
+		private static const AIRSteam_ActivateGameOverlayToWebPage:int = 118;
+		private static const AIRSteam_ActivateGameOverlayToStore:int = 119;
+		private static const AIRSteam_ActivateGameOverlayInviteDialog:int = 120;
+		private static const AIRSteam_IsOverlayEnabled:int = 121;
+		private static const AIRSteam_SetOverlayNotificationPosition:int = 122;
+		private static const AIRSteam_SetOverlayNotificationInset:int = 123;
+		private static const AIRSteam_OverlayNeedsPresent:int = 124;
 		/***********************/
 		/* DLC / subscriptions */
 		/***********************/
-		private static const AIRSteam_IsSubscribedApp:int = 122;
-		private static const AIRSteam_IsDLCInstalled:int = 123;
-		private static const AIRSteam_GetDLCCount:int = 124;
-		private static const AIRSteam_InstallDLC:int = 125;
-		private static const AIRSteam_UninstallDLC:int = 126;
-		private static const AIRSteam_DLCInstalledResult:int = 127;
+		private static const AIRSteam_IsSubscribedApp:int = 125;
+		private static const AIRSteam_IsDLCInstalled:int = 126;
+		private static const AIRSteam_GetDLCCount:int = 127;
+		private static const AIRSteam_InstallDLC:int = 128;
+		private static const AIRSteam_UninstallDLC:int = 129;
+		private static const AIRSteam_DLCInstalledResult:int = 130;
 		/********************/
 		/* Microtransaction */
 		/********************/
-		private static const AIRSteam_MicroTxnResult:int = 128;
+		private static const AIRSteam_MicroTxnResult:int = 131;
 		/**********************************/
 		/* Other non-Steamworks functions */
 		/**********************************/
-		private static const AIRSteam_GetEnv:int = 129;
-		private static const AIRSteam_SetEnv:int = 130;
+		private static const AIRSteam_GetEnv:int = 132;
+		private static const AIRSteam_SetEnv:int = 133;
 		/********************/
         /* Input */
         /********************/
-        private static const AIRSteam_InputInit:int = 131;
-        private static const AIRSteam_GetControllerForGamepadIndex:int = 132;
-        private static const AIRSteam_ShowBindingPanel:int = 133;
-        private static const AIRSteam_GetActionSetHandle:int = 134;
-        private static const AIRSteam_GetDigitalActionHandle:int = 135;
-        private static const AIRSteam_GetAnalogActionHandle:int = 136;
-        private static const AIRSteam_GetDigitalActionData:int = 137;
-        private static const AIRSteam_GetAnalogActionData:int = 138;
-        private static const AIRSteam_RunFrame:int = 139;
-        private static const AIRSteam_GetConnectedControllers:int = 140;
-        private static const AIRSteam_ActivateActionSet:int = 141;
-        private static const AIRSteam_GetHandleAllControllers:int = 142;
-        private static const AIRSteam_GetDigitalActionOrigins:int = 143;
-        private static const AIRSteam_GetAnalogActionOrigins:int = 144;
-        private static const AIRSteam_GetGlyphSVGForActionOrigin:int = 145;
-        private static const AIRSteam_GetGlyphPNGForActionOrigin:int = 146;
-        private static const AIRSteam_GetStringForActionOrigin:int = 147;
-        private static const AIRSteam_ShowGamepadTextInput:int = 148;
-        private static const AIRSteam_ShowFloatingGamepadTextInput:int = 149;
-        private static const AIRSteam_SteamInputShutDown:int = 150;
-        private static const AIRSteam_DismissFloatingGamepadTextInput:int = 151;
+        private static const AIRSteam_InputInit:int = 134;
+        private static const AIRSteam_GetControllerForGamepadIndex:int = 135;
+        private static const AIRSteam_ShowBindingPanel:int = 136;
+        private static const AIRSteam_GetActionSetHandle:int = 137;
+        private static const AIRSteam_GetDigitalActionHandle:int = 138;
+        private static const AIRSteam_GetAnalogActionHandle:int = 139;
+        private static const AIRSteam_GetDigitalActionData:int = 140;
+        private static const AIRSteam_GetAnalogActionData:int = 141;
+        private static const AIRSteam_RunFrame:int = 142;
+        private static const AIRSteam_GetConnectedControllers:int = 143;
+        private static const AIRSteam_ActivateActionSet:int = 144;
+        private static const AIRSteam_GetHandleAllControllers:int = 145;
+        private static const AIRSteam_GetDigitalActionOrigins:int = 146;
+        private static const AIRSteam_GetAnalogActionOrigins:int = 147;
+        private static const AIRSteam_GetGlyphSVGForActionOrigin:int = 148;
+        private static const AIRSteam_GetGlyphPNGForActionOrigin:int = 149;
+        private static const AIRSteam_GetStringForActionOrigin:int = 150;
+        private static const AIRSteam_ShowGamepadTextInput:int = 151;
+        private static const AIRSteam_ShowFloatingGamepadTextInput:int = 152;
+        private static const AIRSteam_SteamInputShutDown:int = 153;
+        private static const AIRSteam_DismissFloatingGamepadTextInput:int = 154;
 		// END GENERATED VALUES
 
 		public function FRESteamWorks (target:IEventDispatcher = null) {
@@ -589,6 +592,7 @@ package com.amanitadesign.steam {
             if(!callWrapper(AIRSteam_GetGlyphPNGForActionOrigin, [eOrigin, eSize, flags])) return "";
             return correctFilePath(readStringResponse());
         }
+		
         private function correctFilePath(path:String):String {
             if(path && path.indexOf("/") != -1){
                 path = path.split("\\").join("/");	//Needed to correct final portion of the file path on Mac and Linux
@@ -1166,9 +1170,27 @@ package com.amanitadesign.steam {
 			return readBoolResponse();
 		}
 
-		// manual implementation
+		// Commented out because this is a manual implementation
 		// public function getEncryptedAppTicket(ticket:ByteArray):Boolean
 
+		public function getAuthTicketForWebApi(identity:String = ""):uint {
+			if(!callWrapper(AIRSteam_GetAuthTicketForWebApi, [identity])) return 0;
+
+			return readIntResponse();
+		}
+
+		public function getAuthTicketForWebApiResultHandle():uint {
+			if(!callWrapper(AIRSteam_GetAuthTicketForWebApiResultHandle, [])) return 0;
+
+			return readIntResponse();
+		}
+
+		public function getAuthTicketForWebApiResultHexString():String {
+			if(!callWrapper(AIRSteam_GetAuthTicketForWebApiResultHexString, [])) return "";
+
+			return readStringResponse();
+		}
+		
 		/***********/
 		/* Overlay */
 		/***********/
@@ -1334,7 +1356,7 @@ package com.amanitadesign.steam {
 			if(!callWrapper(AIRSteam_GetGlyphSVGForActionOrigin, [eOrigin, flags])) return "";
             return readStringResponse();
 		}
-		// Specially manually generated
+		// Specially manually generated code. Commented out here intentionally
 		// public function getGlyphPNGForActionOrigin(eOrigin:String, eSize:int, flags:int):String {
         //     if(!callWrapper(AIRSteam_GetGlyphPNGForActionOrigin, [eOrigin, eSize, flags])) return "";
         //     return readStringResponse();

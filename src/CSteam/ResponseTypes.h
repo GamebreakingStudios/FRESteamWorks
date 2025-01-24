@@ -10,6 +10,7 @@
 #define RESPONSETYPES_H
 
 // General result codes
+
 // Remember to run lib/generateAPI.rb when changing this.
 enum ResponseTypes {
 	RESPONSE_OnUserStatsReceived,
@@ -39,6 +40,7 @@ enum ResponseTypes {
 	RESPONSE_OnSetUserPublishedFileAction,
 	RESPONSE_OnGetAuthSessionTicketResponse,
 	RESPONSE_OnValidateAuthTicketResponse,
+	RESPONSE_OnGetAuthTicketForWebApiResponse,
 	RESPONSE_OnDLCInstalled,
 	RESPONSE_OnMicroTxnAuthorizationResponse,
 	RESPONSE_OnEncryptedAppTicketResponse,

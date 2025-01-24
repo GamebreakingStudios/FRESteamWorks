@@ -40,11 +40,12 @@ package com.amanitadesign.steam {
 		public static const RESPONSE_OnSetUserPublishedFileAction:int = 24;
 		public static const RESPONSE_OnGetAuthSessionTicketResponse:int = 25;
 		public static const RESPONSE_OnValidateAuthTicketResponse:int = 26;
-		public static const RESPONSE_OnDLCInstalled:int = 27;
-		public static const RESPONSE_OnMicroTxnAuthorizationResponse:int = 28;
-		public static const RESPONSE_OnEncryptedAppTicketResponse:int = 29;
-		public static const RESPONSE_OnUserAchievementIconFetched:int = 30;
-		public static const RESPONSE_OnAvatarImageLoaded:int = 31;
+		public static const RESPONSE_OnGetAuthTicketForWebApiResponse:int = 27;
+		public static const RESPONSE_OnDLCInstalled:int = 28;
+		public static const RESPONSE_OnMicroTxnAuthorizationResponse:int = 29;
+		public static const RESPONSE_OnEncryptedAppTicketResponse:int = 30;
+		public static const RESPONSE_OnUserAchievementIconFetched:int = 31;
+		public static const RESPONSE_OnAvatarImageLoaded:int = 32;
 		// END GENERATED CODE
 	}
 }
